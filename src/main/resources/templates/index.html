@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Bookstore</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .book { border: 1px solid #ddd; padding: 15px; margin: 10px 0; border-radius: 5px; }
+        button { background: #007bff; color: white; border: none; padding: 8px 12px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Online Bookstore</h1>
+    <a href="/cart">View Cart</a>
+    <hr>
+    
+    <div th:each="book : ${books}" class="book">
+        <h3 th:text="${book.title}">Title</h3>
+        <p>Author: <span th:text="${book.author}">Author</span></p>
+        <p>Price: $<span th:text="${book.price}">0.00</span></p>
+        
+        <form th:action="@{'/cart/add/' + ${book.id}}" method="post">
+            <button type="submit">Add to Cart</button>
+        </form>
+    </div>
+</body>
+</html>
