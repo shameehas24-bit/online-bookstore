@@ -1,0 +1,5 @@
+INSERT INTO USERS (USERNAME, PASSWORD) VALUES ('admin', 'admin123');
+INSERT INTO BOOK (TITLE, AUTHOR, PRICE) VALUES ('The Alchemist', 'Paulo Coelho', 15.00);
+INSERT INTO BOOK (TITLE, AUTHOR, PRICE) VALUES ('Atomic Habits', 'James Clear', 20.00);
+INSERT INTO BOOK (TITLE, AUTHOR, PRICE) VALUES ('Clean Code', 'Robert Martin', 30.00);
+INSERT INTO BOOK (TITLE, AUTHOR, PRICE) VALUES ('Harry Potter', 'J.K. Rowling', 25.00);
