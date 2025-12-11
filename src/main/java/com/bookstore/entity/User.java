@@ -1,6 +1,6 @@
 package com.bookstore.entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
 
 @Entity

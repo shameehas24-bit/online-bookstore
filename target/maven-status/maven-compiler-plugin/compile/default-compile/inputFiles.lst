@@ -1,0 +1,12 @@
+/workspaces/online-bookstore/src/main/java/com/bookstore/service/UserService.java
+/workspaces/online-bookstore/src/main/java/com/bookstore/repository/BookRepository.java
+/workspaces/online-bookstore/src/main/java/com/bookstore/OnlineBookstoreApplication.java
+/workspaces/online-bookstore/src/main/java/com/bookstore/entity/Book.java
+/workspaces/online-bookstore/src/main/java/com/bookstore/service/CartService.java
+/workspaces/online-bookstore/src/main/java/com/bookstore/controller/BookController.java
+/workspaces/online-bookstore/src/main/java/com/bookstore/repository/CartRepository.java
+/workspaces/online-bookstore/src/main/java/com/bookstore/entity/CartItem.java
+/workspaces/online-bookstore/src/main/java/com/bookstore/repository/UserRepository.java
+/workspaces/online-bookstore/src/main/java/com/bookstore/entity/User.java
+/workspaces/online-bookstore/src/main/java/com/bookstore/controller/CartController.java
+/workspaces/online-bookstore/src/main/java/com/bookstore/service/BookService.java
